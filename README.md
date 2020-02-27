@@ -1,3 +1,9 @@
+## Bundle project
+```
+packrat::bundle()
+mv packrat/bundles/shiny-<date>.tar.gz shiny.tar.gz
+```
+
 ## Run
 
 ```
