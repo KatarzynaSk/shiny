@@ -57,5 +57,5 @@ server <- function(input, output, session) {
         addMarkers(data = observation()$positions, label=c("start","end"))
     })
 }
-options(shiny.port = 8000, display.mode = "showcase")
+
 shinyApp(ui = ui, server = server)
